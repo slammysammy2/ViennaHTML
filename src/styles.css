@@ -1,24 +1,38 @@
-h1 {
+header h1 {
     font-family: "Rye", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 50px;
+    font-size: 80px;
+    text-align: center;
+    margin: 0;
+    text-shadow: 4px 4px black;
 }
 
-h2 {
+header h2 {
     font-family: "Josefin Slab", serif;
+    text-align: center;
+    margin: 0 auto;
+    
 }
 
-h3 {
+header h3 {
     font-family: "Rye", serif;
     font-weight: 400;
-    font-style: normal; 
+    font-style: normal;
+    text-align: center; 
+    font-size: 30px;
+    margin: 0 auto;
+    text-shadow: 4px 4px black;
 }
 
 header {
     background-image: url('../images/wienKanal.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    height: 500px;
+    color: white;
+    margin: 0 auto;
+    padding-top: 300px;
 }
 
 .container {
