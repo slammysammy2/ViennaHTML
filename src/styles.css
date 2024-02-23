@@ -1,3 +1,23 @@
+body {
+    background-color: rgb(120,19,32);
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+header {
+    background-image: url('../images/wienKanal.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    color: white;
+    margin: 0 auto;
+    padding-top: 300px;
+}
+
 header h1 {
     font-family: "Rye", serif;
     font-weight: 400;
@@ -25,20 +45,9 @@ header h3 {
     text-shadow: 4px 4px black;
 }
 
-header {
-    background-image: url('../images/wienKanal.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 500px;
-    color: white;
-    margin: 0 auto;
-    padding-top: 300px;
-}
 
-.container {
-    max-width: 1400px;
-    margin: 0 auto;
-}
+
+
 
   
 
