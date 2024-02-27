@@ -8,6 +8,11 @@ body {
     margin: 0 auto;
 }
 
+section {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
 header {
     background-image: url('../images/wienKanal.jpg');
     background-repeat: no-repeat;
@@ -49,12 +54,23 @@ header h3 {
 
 footer {
     color: white;
-    background-image: url('../images/viennaSunsest.jpg');
+    background-image:  url('../images/viennaSunsest.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 600px;
+    opacity: .5;
+    padding: 100px 0;
 }
 
+footer h3 {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
 
-
-
+footer ul {
+    padding: 0;
+  }
 
 
 @media (max-width: 960px) {
