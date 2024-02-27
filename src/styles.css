@@ -8,6 +8,10 @@ body {
     margin: 0 auto;
 }
 
+.grid {
+    display: grid;
+  }
+
 section {
     max-width: 1600px;
     margin: 0 auto;
@@ -60,6 +64,7 @@ footer {
     background-size:cover;
     height: 600px;
     padding: 100px 100px;
+
 }
 
 footer h3 {
@@ -70,20 +75,36 @@ footer h3 {
 
 footer ul {
     padding: 0;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: thin;
   }
 
   footer li {
     list-style: none;
     margin: 0;
     padding: 0;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: thin;
   }
   
   footer a {
     color: white;
     opacity: 0.7;
     text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: thin;
   }
 
+  #openSource {
+    text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: thin;
+    padding: 500px 0;
+  }
 
 @media (max-width: 960px) {
     header {
