@@ -46,7 +46,18 @@ header h3 {
     text-shadow: 4px 4px black;
 }
 
-@media (max-width: 900px) {
+
+footer {
+    color: white;
+    background-image: url('../images/viennaSunsest.jpg');
+}
+
+
+
+
+
+
+@media (max-width: 960px) {
     header {
         padding: 60px 0;
     }
