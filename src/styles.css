@@ -14,13 +14,12 @@ body {
 
 .grid-2-columns {
     grid-template-columns: 1fr 1fr;
-    
-  }
+    padding: 100px 100px 100px 100px;
+ }
 
 section {
     max-width: 1200px;
     margin: 0 auto;
-    
 }
 
 header {
@@ -63,7 +62,6 @@ header h3 {
 
 main {
     background-color: white;
-    
 }
 
 main h1 {
@@ -81,7 +79,7 @@ main h3 {
   text-transform: uppercase;
   font-size: 12px;
   opacity: 0.3;
-  margin-top: 40px;
+ 
 }
 
 main p {
