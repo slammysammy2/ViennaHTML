@@ -25,6 +25,10 @@ body {
     background-color: white;
  }
 
+ .card-body {
+    padding: 30px;
+ }
+
  .btn {
     display: block;
     color: white;
@@ -118,6 +122,7 @@ main h4 {
     font-family: "Josefin Sans", sans-serif;
     font-optical-sizing: auto;
     font-size: 25px;
+    margin: 0;
 }
 
 main h5 {
@@ -130,6 +135,7 @@ main p {
     font-family: "Josefin Sans", sans-serif;
     font-optical-sizing: auto;
     opacity: 0.7;
+    line-height: 1.5;
 }
 
 
