@@ -17,6 +17,10 @@ body {
     grid-gap: 10px;
  }
 
+ .grid-3-columns {
+    grid-template-columns: 1fr 1fr 1fr;
+ }
+
  .img-responsive {
     max-width: 100%;
  }
