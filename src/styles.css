@@ -14,6 +14,7 @@ body {
 
 .grid-2-columns {
     grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
  }
 
  .img-responsive {
@@ -21,9 +22,12 @@ body {
  }
 
 section {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 100px 0;
+    padding: 100px 200px 100px 200px;
+}
+
+section.secondary {
+    background-color: #f2f2f2;
+    text-align: center;
 }
 
 header {
@@ -70,6 +74,13 @@ main {
 
 main h1 {
   font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 40px;
+  margin: 0;
+}
+
+main h2 {
+    font-family: "Josefin Sans", sans-serif;
   font-optical-sizing: auto;
   font-size: 40px;
   margin: 0;
