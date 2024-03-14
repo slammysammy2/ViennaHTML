@@ -23,12 +23,11 @@ body {
  }
 
  .embed {
-    aspect-ratio: 16 / 9;
+    width: 100%;
+  aspect-ratio: 1 /1;
  }
 
- .card-header img {
-    display: none;
- }
+
 
  .card {
     background-color: white;
@@ -227,6 +226,23 @@ footer ul {
     header h3 {
         font-size: 20px;
     }
+
+    .grid {
+        grid-template-columns: 1fr;
+        grid-gap: 32px;
+      }
+    
+      section {
+        padding: 30px;
+      }
+
+    .card-header img {
+        aspect-ratio: 7 / 8;
+      }
+    
+      .embed {
+        aspect-ratio: 16 / 9;
+      }
 }
 
 
